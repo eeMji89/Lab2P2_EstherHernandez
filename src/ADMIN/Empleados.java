@@ -21,7 +21,7 @@ public class Empleados {
     public String getnombre(){
         return nombre;
     }
-     public void edad(int ed){
+     public void setedad(int ed){
         this.edad= ed;
     }
     public int getedad(){

@@ -12,7 +12,7 @@ public class Carros {
     private int año;
     private String fecha;
     private ArrayList<String> estadoC = new ArrayList();
-    private String dueño;
+    private ArrayList<String> dueño = new ArrayList();
     private double costo;
     
     public void setmarca(String ma){
@@ -27,6 +27,12 @@ public class Carros {
     public String getmodelo(){
         return modelo;
     }
+    public void setaño(int a){
+        this.año = a;
+    }
+    public int getaño(){
+        return año;
+    }
     public void setfecha(String f){
         this.fecha=f;
     }
@@ -39,10 +45,10 @@ public class Carros {
     public ArrayList <String> getEstadoC(){
         return estadoC;
     }
-    public void setdueño(String d){
+    public void setdueño(ArrayList<String> d){
         this.dueño=d;
     }
-    public String getdueño(){
+    public ArrayList<String> getdueño(){
         return dueño;
     }
      public void setcosto(double cs){
